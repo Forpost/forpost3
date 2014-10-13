@@ -9,7 +9,6 @@
         "ircmaxell/password-compat": "dev-master",
         "dyuriev/php-thumb": "dev-master",
         "dyuriev/error_handler": "dev-master",
-        "smarty/smarty": "dev-trunk",
         "maximebf/debugbar": "1.*"
     }
 }
