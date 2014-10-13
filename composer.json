@@ -1,0 +1,15 @@
+{
+    "require": {
+        "php": ">=5.3.10",
+        "swiftmailer/swiftmailer": "@stable",
+        "twig/twig": "1.*",
+        "illuminate/database": "*",
+        "monolog/monolog": "~1.7",
+        "patchwork/utf8": "~1.1",
+        "ircmaxell/password-compat": "dev-master",
+        "dyuriev/php-thumb": "dev-master",
+        "dyuriev/error_handler": "dev-master",
+        "smarty/smarty": "dev-trunk",
+        "maximebf/debugbar": "1.*"
+    }
+}

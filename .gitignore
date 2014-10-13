@@ -1,0 +1,12 @@
+webstat/
+uploads/
+vendor/
+application/config/
+!application/config/.gitkeep
+application/cache/
+!application/cache/.gitkeep
+vendor/
+!vendor/.gitkeep
+test.php
+TODO.txt
+composer.lock

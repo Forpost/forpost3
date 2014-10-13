@@ -1,0 +1,16 @@
+<IfModule mod_php5.c>
+    php_value error_reporting -1
+    php_flag display_errors 1
+    php_flag display_startup_errors 1
+    php_flag html_errors 1
+    php_flag log_errors 1
+    php_value upload_max_filesize 512M
+    php_value post_max_size 514M
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME}/index.php !-f
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule  .*  index.php  [QSA,L]
+</IfModule>
